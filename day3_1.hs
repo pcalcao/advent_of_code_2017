@@ -23,4 +23,4 @@ manhattanDistance :: Int -> Int
 manhattanDistance x = circle + distanceToCenter x (getMiddleOfCircle circle) - 1
   where circle = findCircle x
 
-main = do putStrLn (show (manhattanDistance 3479910000))
+main = do putStrLn (show (manhattanDistance 347991))
